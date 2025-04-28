@@ -67,6 +67,11 @@ python train.py --train_data /path/to/train_data --val_data /path/to/val_data --
 - `--classifier_lr`: 分类器学习率 (默认: 5e-4)
 - `--unfreeze_blocks`: 解冻的transformer block数量 (默认: 6)
 
+### 3. 进行预测
+
+```bash
+python run.py /path/to/test_directory /path/to/result.csv
+```
 
 ## 数据格式
 
